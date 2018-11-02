@@ -1,11 +1,10 @@
 {
   "name": "webdevsite",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mock business site",
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build",
     "start": "next start",
     "heroku-postbuild": "next build"
   },
