@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
-import Link from 'next/link';
 
 import SidebarLink from './sidebarlink/sidebarlink';
 
@@ -69,7 +68,6 @@ class sidebar extends Component {
             .change .bar1 {
               -webkit-transform: rotate(-45deg) translate(-6px, 5px);
               transform: rotate(-45deg) translate(-6px, 5px);
-              background-color: white;
             }
 
             .change .bar2 {
@@ -79,7 +77,6 @@ class sidebar extends Component {
             .change .bar3 {
               -webkit-transform: rotate(45deg) translate(-6px, -5px);
               transform: rotate(45deg) translate(-6px, -5px);
-              background-color: white;
             }
 
             /* The Side Navigation Bar */ 
@@ -90,7 +87,7 @@ class sidebar extends Component {
             top: 0px; 
             right: 0px;
             padding-top: 30px; 
-            background-color: rgba(0,0,0,0.8); 
+            background-color: rgba(255,255,255,0.92); 
             overflow-x: hidden; 
             z-index: 400; 
             transition-duration: 0.1s;

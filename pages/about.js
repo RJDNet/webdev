@@ -10,7 +10,7 @@ export default () => (
         <img className='aboutImage' src='../static/aboutpic.jpeg' />
       </div>
       <div className='rightAboutContainer'>
-        <p className='aboutText'>SCENICWEB is a small UK based web design and development company based in Weston-Super-Mare. We started up as a small team, a team with a passion for creating great modern, fast and efficient websites and web applications.
+        <p className='aboutText'>TANGLEWEB is a small UK based web design and development company based in Weston-Super-Mare. We started up as a small team, a team with a passion for creating great modern, fast and efficient websites and web applications.
         <br />
           <br />
           We have an aim to provide top quality websites which fit the needs of our clients. By keeping up to date with the latest technologies and movements in the web development field, we strive to always be providing the best there is to offer.</p>

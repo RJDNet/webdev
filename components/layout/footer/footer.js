@@ -25,7 +25,7 @@ export default () => {
         <FooterLink to='/' text='Hosting Terms & Conditions' />
         <FooterLink to='/' text='SEO (Search Engine Optimisation) Terms & Conditions' />
         <FooterLink to='/' text='Privacy Policy' />
-        <FooterLink to='/' text='Contact Us' />
+        <FooterLink to='/contact' text='Contact Us' />
       </div>
 
       <div className='footerCopyContainer'>

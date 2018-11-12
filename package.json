@@ -1,21 +1,21 @@
 {
   "name": "webdevsite",
   "version": "1.0.0",
-  "description": "A mock business site",
+  "description": "A mock web business site",
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "start": "next start",
-    "heroku-postbuild": "next build"
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@zeit/next-css": "^1.0.1",
-    "classnames": "^2.2.6",
-    "next": "^7.0.0",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "@zeit/next-css": "1.0.1",
+    "classnames": "2.2.6",
+    "next": "7.0.0",
+    "react": "16.5.2",
+    "react-dom": "16.5.2"
   }
 }

@@ -15,6 +15,14 @@ export default (props) => (
           height: 32px;
           margin-left: 7px;
         }
+
+        .socialIcon {
+          opacity: 0.85;
+        }
+        
+        .socialIcon:hover {
+          opacity: 1;
+        }
       `}
     </style>
   </Aux>

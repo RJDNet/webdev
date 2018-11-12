@@ -65,6 +65,11 @@ export default () => {
             border: none;
             border-radius: 3px;
             color: white;
+            cursor: pointer;
+          }
+
+          .bannerButton:hover {
+            background-color: #961313;
           }
 
           @media only screen and (max-width: 999px) {

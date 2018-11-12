@@ -13,16 +13,32 @@ export default (props) => (
       {`
         .sideNavLink {
           display: block;
-          padding-top: 20px;
+          box-sizing: border-box;
+          padding-top: 13px;
           padding-left: 15px;
-          color: #c4c4c4;
+          padding-bottom: 13px;
+          color: black;
           font-size: 15px;
+          font-weight: 700;
           text-decoration: none;
           transition: 0.2s;
         }
 
-        .sideNavLink:hover {
-          color: #f1f1f1;
+        .sideNavLink:after {
+          content: '';
+          display: block;
+          border-bottom: 2px solid red;   
+          width: 0px;
+          position: absolute;   
+          -webkit-transition: 0.1s ease;
+          transition: 0.15s ease;
+        }
+
+        .sideNavLink:hover:after {     
+          width: 10%; 
+          background-color: rgba(0, 0, 0, 0) !important;
+          color: rgb(153, 153, 153) !important;    
+          transition: 0.15s ease !important;
         }
       `}
     </style>

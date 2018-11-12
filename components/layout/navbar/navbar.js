@@ -102,6 +102,7 @@ class Navbar extends Component {
           .logoLink {
             width: 180px;
             height: 55px;
+            cursor: pointer;
           }
 
           .linksContainer {

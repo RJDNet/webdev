@@ -40,7 +40,7 @@ class Infotab extends Component {
             box-shadow: 2px 2px 0px 0px #d3d3d3;
             overflow: hidden;
             cursor: pointer;
-            transition: ease-in 0.15s;
+            transition: ease 0.15s;
 
             -webkit-touch-callout: none; /* iOS Safari */
             -webkit-user-select: none; /* Safari */

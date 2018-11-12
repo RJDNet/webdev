@@ -9,9 +9,11 @@ export default (props) => (
     <style jsx>
       {`
         .singleInfo {
-          height: 200px;
-          padding-top: 10px;
+          height: 180px;
+          padding: 20px;
           color: #3d3d3d;
+          cursor: pointer;
+          transition: ease 0.2s;
         }
 
         .infoImage {
@@ -27,6 +29,11 @@ export default (props) => (
 
         .infoText {
           padding-top: 10px;
+        }
+
+        .singleInfo:hover {
+          -webkit-font-smoothing: subpixel-antialiased;
+          box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.2);
         }
       `}
     </style>
