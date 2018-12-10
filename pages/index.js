@@ -1,4 +1,5 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 
 import Banner from '../components/banner/banner';
 import SingleInfo from '../components/singleinfo/singleinfo';
@@ -9,6 +10,7 @@ export default () => (
 
     <Banner />
 
+    <Fade>
     <div className='mainInfoContainer'>
       <p className='whyTitle'>Why TANGLEWEB?</p>
       <div className='infoContainer'>
@@ -32,6 +34,7 @@ export default () => (
           text='With our Search Engine Optomization service, we work to consistently ensure top quality SEO for your website or web app.' />
       </div>
     </div>
+    </Fade>
 
     <div className='parapic'>
       <div className='paraShadow'>
@@ -39,6 +42,7 @@ export default () => (
       </div>
     </div>
 
+    <Fade bottom duration={700} delay={0}>
     <div className='moreInfoContainer'>
       <p className='moreTitle'>More reasons to choose us!</p>
       <div className='infoContainer'>
@@ -61,6 +65,7 @@ export default () => (
           text='We consistantly keep up with the latest techniques for enhancing performance
           to ensure your web app loads and performs as fast as possible.' />
       </div>
+
       <div className='infoContainer'>
         <Infotab 
           title='Free advice & support' 
@@ -81,6 +86,7 @@ export default () => (
           and no issues.' />
       </div>
     </div>
+    </Fade>
 
     <style jsx>
       {`

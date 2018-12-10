@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Fade from 'react-reveal/Fade';
 
 class Contact extends Component {
   constructor() {
@@ -22,45 +23,47 @@ class Contact extends Component {
   render() {
     return (
       <div className='contactMainContainer'>
-        <p className='contactTitle'>Contact</p>
-        <div className='contactContainer'>
-          <p className='contactText'>If you have any enquiries, please feel free to use the contact form below. We are always happy to help with a new project.</p>
-          <form action='https://formspree.io/your@email.com' method='POST'>
-            <input
-              className='contactInput'
-              type='text'
-              name='name'
-              placeholder='Name'
-              value={this.state.name}
-              onChange={this.changeHandler} />
-            <input
-              className='contactInput'
-              type='email'
-              name='email'
-              placeholder='Email'
-              value={this.state.email}
-              onChange={this.changeHandler} />
-            <input
-              className='contactInput'
-              type='text'
-              name='title'
-              placeholder='Title'
-              value={this.state.title}
-              onChange={this.changeHandler} />
-            <textarea
-              className='contactTextArea'
-              type=''
-              name='message'
-              placeholder='Enter your message here...'
-              value={this.state.message}
-              onChange={this.changeHandler} />
-            <input
-              disabled
-              type='submit'
-              className='contactButton'
-              value='Send' />
-          </form>
-        </div>
+        <Fade>
+          <p className='contactTitle'>Contact</p>
+          <div className='contactContainer'>
+            <p className='contactText'>If you have any enquiries, please feel free to use the contact form below. We are always happy to help with a new project.</p>
+            <form action='https://formspree.io/your@email.com' method='POST'>
+              <input
+                className='contactInput'
+                type='text'
+                name='name'
+                placeholder='Name'
+                value={this.state.name}
+                onChange={this.changeHandler} />
+              <input
+                className='contactInput'
+                type='email'
+                name='email'
+                placeholder='Email'
+                value={this.state.email}
+                onChange={this.changeHandler} />
+              <input
+                className='contactInput'
+                type='text'
+                name='title'
+                placeholder='Title'
+                value={this.state.title}
+                onChange={this.changeHandler} />
+              <textarea
+                className='contactTextArea'
+                type=''
+                name='message'
+                placeholder='Enter your message here...'
+                value={this.state.message}
+                onChange={this.changeHandler} />
+              <input
+                disabled
+                type='submit'
+                className='contactButton'
+                value='Send' />
+            </form>
+          </div>
+        </Fade>
 
         <style jsx>
           {`
@@ -127,7 +130,8 @@ class Contact extends Component {
               border-radius: 3px;
               background-color: red;
               color: white;
-              
+              cursor: pointer;
+              transition: 0.15s;
             }
 
             .contactButton:hover {

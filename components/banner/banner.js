@@ -1,16 +1,21 @@
 import React from 'react';
 import Link from 'next/link';
+import Fade from 'react-reveal/Fade';
 
 export default () => {
   return (
     <div className='bannerImage'>
       <div className='shadow'>
         <div className='bannerTextContainer'>
-          <p className='bannerText'>Modern, professional...</p>
-          <p className='bannerTextTwo'>WEB DESIGN & DEVELOPMENT</p>
-          <Link href='/services'>
-            <button className='bannerButton'>SERVICES</button>
-          </Link>
+          <Fade>
+            <p className='bannerText'>Modern, professional...</p>
+            <p className='bannerTextTwo'>WEB DESIGN & DEVELOPMENT</p>
+
+            <Link href='/services'>
+              <button className='bannerButton'>SERVICES</button>
+            </Link>
+
+          </Fade>
         </div>
       </div>
 
