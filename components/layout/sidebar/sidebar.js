@@ -11,13 +11,13 @@ class sidebar extends Component {
     };
 
     this.handleClick = this.handleClick.bind(this);
-  };
+  }
 
   handleClick() {
     this.setState({
       toggler: !this.state.toggler
     });
-  };
+  }
 
   render() {
     const { toggler } = this.state;
@@ -129,7 +129,7 @@ class sidebar extends Component {
         </style>
       </div>
     );
-  };
-};
+  }
+}
 
 export default sidebar;

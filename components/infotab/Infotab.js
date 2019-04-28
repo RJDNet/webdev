@@ -9,13 +9,13 @@ class Infotab extends Component {
     };
 
     this.handleToggle = this.handleToggle.bind(this);
-  };
+  }
 
   handleToggle() {
     this.setState({
       tabToggle: !this.state.tabToggle
     });
-  };
+  }
 
   render() {
     const { tabToggle } = this.state;
@@ -94,7 +94,7 @@ class Infotab extends Component {
         </style>
       </div>
     );
-  };
-};
+  }
+}
 
 export default Infotab;

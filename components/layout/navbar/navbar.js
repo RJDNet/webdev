@@ -13,15 +13,15 @@ class Navbar extends Component {
     };
 
     this.handleScroll = this.handleScroll.bind(this);
-  };
+  }
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
-  };
+  }
 
   componentWillUnmount() {
     window.removeEventListener('scroll', this.handleScroll);
-  };
+  }
 
   handleScroll() {
     if (window.pageYOffset > 55 && window.outerWidth > 999) {
@@ -33,7 +33,7 @@ class Navbar extends Component {
         navToggle: false
       });
     }
-  };
+  }
 
   render() {
     const { navToggle } = this.state;
@@ -171,7 +171,7 @@ class Navbar extends Component {
         </style>
       </div>
     );
-  };
-};
+  }
+}
 
 export default Navbar;

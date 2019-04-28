@@ -4,7 +4,6 @@ import FooterLink from './footerlink/footerlink';
 import SocialIcon from './socialicon/socialicon';
 
 export default () => {
-
   return (
     <div className='footerContainer'>
 
@@ -71,4 +70,4 @@ export default () => {
       </style>
     </div >
   );
-};
+}

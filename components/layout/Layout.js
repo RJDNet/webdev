@@ -7,7 +7,7 @@ import Footer from './footer/footer';
 
 class Layout extends Component {
   render() {
-    const { children } = this.props
+    const { children } = this.props;
 
     return (
       <Aux>
@@ -37,7 +37,7 @@ class Layout extends Component {
         </style>
       </Aux>
     );
-  };
-};
+  }
+}
 
 export default Layout;

@@ -12,13 +12,13 @@ class Contact extends Component {
     };
 
     this.changeHandler = this.changeHandler.bind(this);
-  };
+  }
 
   changeHandler(e) {
     this.setState({
       [e.target.name]: e.target.value
     });
-  };
+  }
 
   render() {
     return (
@@ -83,7 +83,7 @@ class Contact extends Component {
             }
             
             .contactTitle {
-              width: 100%%;
+              width: 100%;
               display: block;
               padding-bottom: 40px;
               font-size: 28px;
