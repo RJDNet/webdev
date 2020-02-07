@@ -11,10 +11,10 @@ class Contact extends Component {
       message: ''
     };
 
-    this.changeHandler = this.changeHandler.bind(this);
+    // this.changeHandler = this.changeHandler.bind(this);
   }
 
-  changeHandler(e) {
+  changeHandler = (e) => {
     this.setState({
       [e.target.name]: e.target.value
     });
