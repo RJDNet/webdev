@@ -10,4 +10,4 @@ The app is built with NextJS, a package that uses React and includes many featur
 
 ## Link to project
 
-https://webdevsite.rjdnet.now.sh/
+https://webdevsite-6xq8xrnjt.now.sh/
